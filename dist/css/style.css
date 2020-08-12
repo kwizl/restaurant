@@ -133,6 +133,6 @@ header {
   font-weight: 300;
   position: relative;
   height: calc(100vh - 37vh);
-  width: 100%;
+  width: 96%;
   margin: 0 25px 10px 25px;
 }
