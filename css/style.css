@@ -116,7 +116,7 @@ header {
   font-weight: 700;
 }
 
-.about-us__link {
+.about-us__link, .nav__link {
   text-decoration: none;
   color: black;
 }
