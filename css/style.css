@@ -30,14 +30,13 @@ header {
   background-size: cover;
   background-position: center;
   background-color: rgb(0, 0, 0, .6);
-  font-family: Lato;
   font-weight: 300;
   position: relative;
   height: calc(100vh - 25vh);
   width: 100%;
 }
 
-.title {
+.title, .about-img > p {
   text-align: center;
   padding-top: 40vh;
   font-size: 30px;
@@ -57,7 +56,7 @@ header {
   margin: 0 20px 0 20px;
 }
 
-.menu-title, .contact-title {
+.menu-title, .about-us-title {
   text-align: center;
   margin: 30px 0 30px 0;
   font-size: 25px;
@@ -100,24 +99,40 @@ header {
   font-size: 20px;
 }
 
-#contacts {
+#about-us {
   margin: 0 25px 0 25px;
-  padding-bottom: 20px;
+  height: 30vh;
 }
 
-.contact-col {
+.about-us-col {
   display: flex;
   justify-content: space-between;
 }
 
-.contact__item {
+.about-us__item {
   display: inline;
   list-style: none;
   margin: 0 20px 0 20px;
   font-weight: 700;
 }
 
-.contact__link {
+.about-us__link {
   text-decoration: none;
   color: black;
+}
+
+.about-us-content {
+  margin: 0 25px 30px 25px;
+}
+
+.about-img {
+  background-image: linear-gradient(rgba(61, 59, 59, 0.7), rgba(62, 20, 20, 0.7)), url(../img/bison\ burger.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(0, 0, 0, .6);
+  font-weight: 300;
+  position: relative;
+  height: calc(100vh - 37vh);
+  width: 100%;
+  margin: 0 25px 10px 25px;
 }
