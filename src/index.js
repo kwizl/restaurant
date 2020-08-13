@@ -5,4 +5,5 @@ const home = Home();
 const menu = Menu();
 
 home.thumbnail();
+menu.burgerTitle();
 menu.burgers();

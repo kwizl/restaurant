@@ -1,9 +1,22 @@
 const Menu = () => {
+  const mainContent = document.getElementById('content');
+  const menu = document.createElement('div');
+  const h2 = document.createElement('h2');
+  const menuItems = document.createElement('div');
+
+  const burgerTitle = () => {
+    menu.setAttribute('id', 'menu');
+    h2.classList.add('menu-title');
+    menuItems.classList.add('menu-items');
+
+    mainContent.appendChild(menu);
+    menu.appendChild(h2);
+    menu.appendChild(menuItems);
+
+    h2.textContent = 'MENU';
+  };
+
   const burgers = () => {
-    const mainContent = document.getElementById('content');
-    const menu = document.createElement('div');
-    const h2 = document.createElement('h2');
-    const menuItems = document.createElement('div');
     const menuItem = document.createElement('div');
     const menuImgContainer = document.createElement('div');
     const img = document.createElement('img');
@@ -13,16 +26,10 @@ const Menu = () => {
     const p4 = document.createElement('p');
     const p5 = document.createElement('p');
 
-    menu.setAttribute('id', 'menu');
-    h2.classList.add('menu-title');
-    menuItems.classList.add('menu-items');
     menuItem.classList.add('menu-item');
     menuImgContainer.classList.add('menu-img__container');
     img.classList.add('menu-item__img');
 
-    mainContent.appendChild(menu);
-    menu.appendChild(h2);
-    menu.appendChild(menuItems);
     menuItems.appendChild(menuItem);
     menuItem.appendChild(menuImgContainer);
     menuImgContainer.appendChild(img);
@@ -32,7 +39,6 @@ const Menu = () => {
     menuItem.appendChild(p4);
     menuItem.appendChild(p5);
 
-    h2.textContent = 'MENU';
     img.src = '../dist/img/beef-burger.jpeg';
     img.alt = 'Beef Burger';
     p1.textContent = 'Price: $8.99';
@@ -41,7 +47,7 @@ const Menu = () => {
     p4.innerHTML = '&nbsp; - Tomatoes & Onions';
     p5.innerHTML = '&nbsp; - Lettuce';
   };
-  return { burgers };
+  return { burgers, burgerTitle };
 };
 
 export { Menu };
