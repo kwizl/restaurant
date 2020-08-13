@@ -16,4 +16,4 @@ menu.burgers();
 menu.burgers();
 menu.burgers();
 
-contact.contactContent();
+contact.contactTitle();
