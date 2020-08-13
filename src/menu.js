@@ -7,13 +7,16 @@ const Menu = () => {
   const burgerTitle = () => {
     menu.setAttribute('id', 'menu');
     h2.classList.add('menu-title');
-    menuItems.classList.add('menu-items');
 
     mainContent.appendChild(menu);
     menu.appendChild(h2);
-    menu.appendChild(menuItems);
 
     h2.textContent = 'MENU';
+  };
+
+  const burgerItems = () => {
+    menuItems.classList.add('menu-items');
+    menu.appendChild(menuItems);
   };
 
   const burgers = () => {
@@ -47,7 +50,8 @@ const Menu = () => {
     p4.innerHTML = '&nbsp; - Tomatoes & Onions';
     p5.innerHTML = '&nbsp; - Lettuce';
   };
-  return { burgers, burgerTitle };
+  return { burgers, burgerTitle, burgerItems };
 };
 
+// eslint-disable-next-line import/prefer-default-export
 export { Menu };
