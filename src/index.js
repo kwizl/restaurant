@@ -1,4 +1,8 @@
 import { Home } from './home.js';
+import { Menu } from './menu.js';
 
 const home = Home();
-window.onload = home.thumbnail();
+const menu = Menu();
+
+home.thumbnail();
+menu.burgers();

@@ -25,7 +25,11 @@ header {
   font-weight: 700;
 }
 
-#main-page {
+.nav__link:hover {
+  border-bottom: 2px solid rgb(196, 6, 6);
+}
+
+#home {
   background-image: linear-gradient(rgba(61, 59, 59, 0.7), rgba(62, 20, 20, 0.7)), url(../img/thumbnail.jpeg);
   background-size: cover;
   background-position: center;

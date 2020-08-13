@@ -5,7 +5,7 @@ const Home = () => {
     const title = document.createElement('p');
     const subTitle = document.createElement('p');
 
-    mainImg.setAttribute('id', 'main-page');
+    mainImg.setAttribute('id', 'home');
     title.classList.add('title');
     subTitle.classList.add('sub-title');
 
