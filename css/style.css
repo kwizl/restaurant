@@ -60,7 +60,7 @@ header {
   margin: 0 20px 0 20px;
 }
 
-.menu-title, .about-us-title {
+.menu-title, .contact-us-title {
   text-align: center;
   margin: 30px 0 30px 0;
   font-size: 25px;
@@ -103,33 +103,33 @@ header {
   font-size: 20px;
 }
 
-#about-us {
+#contact-us {
   margin: 0 25px 0 25px;
   height: 30vh;
 }
 
-.about-us-col {
+.contact-us-col {
   display: flex;
   justify-content: space-between;
 }
 
-.about-us__item {
+.contact-us__item {
   display: inline;
   list-style: none;
   margin: 0 20px 0 20px;
   font-weight: 700;
 }
 
-.about-us__link, .nav__link {
+.contact-us__link, .nav__link {
   text-decoration: none;
   color: black;
 }
 
-.about-us-content {
+.contact-us-content {
   margin: 0 25px 30px 25px;
 }
 
-.about-img {
+.contact-img {
   background-image: linear-gradient(rgba(61, 59, 59, 0.7), rgba(62, 20, 20, 0.7)), url(../img/bison\ burger.jpeg);
   background-size: cover;
   background-position: center;
