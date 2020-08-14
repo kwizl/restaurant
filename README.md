@@ -11,7 +11,7 @@ This app is a Restaurant Webpage that has been render entirely in Javascript usi
 ![screenshot](./dist/img/screenshot3.png)
 
 ## Online Version
- [Live Demo ](https://rawcdn.githack.com/kwizl/tictactoe-js/e88523c51b307db05d3d539c26f5bb22e3fd4092/index.html)
+ [Live Demo ](https://kwizl.github.io/restaurant/)
 
 ## Content
 
