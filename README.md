@@ -1,11 +1,14 @@
 # RESTAURANT PAGE
 
-This app is a Tic-Tac-Toe game develop entirely in Javascript using specially the DOM manipulation. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+This app is a Restaurant Webpage that has been render entirely in Javascript using specially the DOM manipulation. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 ## Screenshots
-![screenshot](https://cdn.mathpix.com/snip/images/80QjOOyLGp9ZWerRDJOOKEZeJIz9WF2p3RbyvTgqHoY.original.fullsize.png)
 
-![screenshot](https://cdn.mathpix.com/snip/images/-75HmyDAMtdNL8qInz9zgGfo9Kv3hrz9gvwrpghD9j4.original.fullsize.png)
+![screenshot](./dist/img/screenshot1.png)
+
+![screenshot](./dist/img/screenshot2.png)
+
+![screenshot](./dist/img/screenshot3.png)
 
 ## Online Version
  [Live Demo ](https://rawcdn.githack.com/kwizl/tictactoe-js/e88523c51b307db05d3d539c26f5bb22e3fd4092/index.html)
