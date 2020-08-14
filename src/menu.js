@@ -42,7 +42,7 @@ const Menu = () => {
     menuItem.appendChild(p4);
     menuItem.appendChild(p5);
 
-    img.src = '../dist/img/beef-burger.jpeg';
+    img.src = './img/beef-burger.jpeg';
     img.alt = 'Beef Burger';
     p1.textContent = 'Price: $8.99';
     p2.textContent = 'Beef Burger';
