@@ -50,7 +50,16 @@ const Menu = () => {
     p4.innerHTML = '&nbsp; - Tomatoes & Onions';
     p5.innerHTML = '&nbsp; - Lettuce';
   };
-  return { burgers, burgerTitle, burgerItems };
+
+  const burgersDisplay = () => {
+    burgerTitle();
+    burgerItems();
+    burgers();
+    burgers();
+    burgers();
+    burgers();
+  };
+  return { burgersDisplay };
 };
 
 // eslint-disable-next-line import/prefer-default-export

@@ -1,5 +1,5 @@
 const Contact = () => {
-  const contactTitle = () => {
+  const contactContent = () => {
     const mainContent = document.getElementById('content');
     const contactUs = document.createElement('div');
 
@@ -75,7 +75,7 @@ const Contact = () => {
     a4.textContent = 'bestburgers@gmail.com';
   };
 
-  return { contactTitle };
+  return { contactContent };
 };
 
 // eslint-disable-next-line import/prefer-default-export
