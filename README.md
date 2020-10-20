@@ -1,6 +1,6 @@
 # RESTAURANT PAGE
 
-This app is a Restaurant Webpage that has been render entirely in Javascript using specially the DOM manipulation. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+This app is a Restaurant Webpage that has been rendered entirely in Javascript using DOM manipulation. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 ## Screenshots
 
@@ -33,15 +33,14 @@ This app is a Restaurant Webpage that has been render entirely in Javascript usi
 ## Getting Start
 
 #### Get a local copy
-Now you need a copy of this application, if you are using Git:
+Now you need a copy of this application if you are using Git:
 ```js
 git@github.com:kwizl/restaurant.git
 ```
-Otherwise just hit (Download Zip) on green button (Clone or Download) at top of this page.
+Click (Download Zip) on the green button (Clone or Download) on this page.
 
 #### Run App
 
-In order to run the App on your browser:
 - Open your command prompt or terminal and navigate inside the downloaded project
 - Type in the terminal `npm install`
 - Type in the terminal `npx webpack` or `npx webpack --watch`
@@ -50,13 +49,13 @@ In order to run the App on your browser:
 
 ### Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 You can do it on [issues page](issues/).
 
 ## Acknowledgments
 
-A special thanks for all Microverse Team and Code Reviewers that guides me through my learning.
+A special thanks to all Microverse Team and Code Reviewers that guides me through my learning.
 
 ## Authors
 
@@ -65,7 +64,3 @@ A special thanks for all Microverse Team and Code Reviewers that guides me throu
 - Github: [@kwizl](https://github.com/kwizl)
 - Twitter: [@NjoroKaris](https://twitter.com/NjoroKaris)
 - Linkedin: [Martin Njoroge](https://www.linkedin.com/in/martin-kariuki-njoroge/)
-
-## Show your support
-
-Give a ⭐️ if you like this project!
