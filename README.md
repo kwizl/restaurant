@@ -1,6 +1,6 @@
 # RESTAURANT PAGE
 
-This app is a Restaurant Webpage that has been rendered entirely in Javascript using DOM manipulation. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+This app is a Restaurant Webpage that has been rendered entirely in Javascript using the DOM manipulation. Full Project Description [here](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 ## Screenshots
 
