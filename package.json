@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kwizl/restaurant#readme",
   "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
